@@ -120,3 +120,47 @@ main{
     width: 50%;
 }
 
+.trendingRecipes{
+    background-color: #fa8072;
+}
+
+
+
+.trendingRecipesText{
+    margin-bottom: 0;
+    font-size: 30px;
+    
+}
+
+.trendingRecipesText:before{
+    content:"\279a";
+    
+}
+
+.pictureConteiner{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.firstPicture{
+    padding: 3%;
+    width: 27%;
+    height: 50%;
+
+}
+
+.secondPicture{
+    padding: 3%;
+    width: 27%;
+    height: 50%;
+    
+}
+
+.thirdPicture{
+    padding: 3%;
+    width: 27%;
+    height: 50%;
+    
+}
