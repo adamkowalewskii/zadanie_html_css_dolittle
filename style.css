@@ -1,17 +1,60 @@
-*{
-    background-color: orange;
+
+
+header{
+    background-image: linear-gradient(to bottom, orange, white);
+    height: 30%;
 }
 
-
-
 nav{
+    margin-top: 0;
     margin-left: 50%;
     display: flex;
     justify-content: space-around;
     flex-direction: row;
 }
 
-.logo{
-    width:px;
+.textPart{
+    margin-top: 5%;
+    margin-left: 5%;
 }
+
+.exploreText{
+    margin: 0;
+    font-size: 30px;
+}
+
+.headerText{
+    
+    margin: 0;
+    font-size: 40px;
+}
+
+form{
+    margin-top: 2%;
+    margin-left: 5%;
+    
+}
+
+button{
+    border: 0;
+    background-color: orange;
+    color: white;
+}
+
+.bottomPartOfHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 5%;
+}
+
+.cooking{
+    display: flex;
+    justify-content: flex-end;
+    width: 20%;
+    height: 20%;
+    margin-top: 5%;
+    margin-right: 5%;
+}
+
 
