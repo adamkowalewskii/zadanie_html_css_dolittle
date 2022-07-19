@@ -181,3 +181,8 @@ main{
 .thirdPicture:hover{
     transform: rotate(180deg);
 }
+
+.footerText:before{
+    content: "\000A9";
+    
+}
