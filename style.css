@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap");
+@import "font-awesome";
 
 header{
     background-image: linear-gradient(to bottom, orange, white);
@@ -164,4 +165,19 @@ main{
     width: 27%;
     height: 50%;
     
+}
+
+
+
+
+.firstPicture:hover{
+    transform: rotate(180deg);
+}
+
+.secondPicture:hover{
+    transform: rotate(180deg);
+}
+
+.thirdPicture:hover{
+    transform: rotate(180deg);
 }
